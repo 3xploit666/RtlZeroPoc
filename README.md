@@ -41,9 +41,11 @@ Example
 
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/3xploit666/RtlZeroPoc
+cd RtlZeroPoc
+cargo check
 cargo run
+cargo --build release
 ```
 
 <p align="center">
