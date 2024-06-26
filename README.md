@@ -27,10 +27,8 @@ To add these dependencies, include the following in your Cargo.toml:
 
 toml
 ```bash
-[dependencies]
-rand = "0.8.4"
-winapi = { version = "0.3", features = ["heapapi", "libloaderapi", "ntdll"] }
-RtlZeroPoc = { path = "../path/to/RtlZeroPoc" } # Adjust the path as needed
+rand = "0.9.0-alpha.1"
+winapi = { version = "0.3.9", features = ["heapapi", "libloaderapi", "winnt"] }
 ```
 
 Usage
